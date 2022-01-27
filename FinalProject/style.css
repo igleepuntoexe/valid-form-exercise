@@ -1,0 +1,254 @@
+body{
+    background-color: #9fa5b3;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container{
+    height: 410px;
+    color: black;
+    width: 1250px;
+    margin-left: 120px;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+}
+
+h2{
+    padding-top: 30px;
+    padding-left: 40px;
+    color: red;
+}
+
+.nombre1{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.nombre1 input{
+    margin-left: 270px;
+}
+
+.nombre2{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.nombre2 input:first-of-type{
+    margin-left: 265px;
+}
+
+.nombre3{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.nombre3 select{
+    margin-left: 270px;
+}
+
+.nombre4{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.nombre4 select:first-of-type{
+    margin-left: 118px;
+}
+
+.nombre5{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.nombre5 input:first-of-type{
+    margin-left: 7px;
+}
+
+.nombre5 button{
+    border-radius: 5px;
+}
+
+.nombre6{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.nombre6 input:first-of-type{
+    margin-left: 280px;
+}
+
+span{
+    color: red;
+}
+
+.container-tocho{
+    margin-top: 50px;
+    height: 500px;
+    color: black;
+    width: 1250px;
+    margin-left: 120px;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.container-tocho p{
+    padding-left: 40px;
+    text-align: left;
+}
+
+.container-tocho textarea{
+    margin-left: 40px;
+    width: 55%;
+    height: 60%;
+}
+
+.container1{
+    margin-top: 50px;
+    height: 480px;
+    color: black;
+    width: 1250px;
+    margin-left: 120px;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+}
+
+h3{
+    padding-left: 40px;
+    color: red;
+}
+
+.container1 .calle{
+    padding-left: 50px;
+    margin-right: 5%;
+}
+
+.container1 label{
+    padding-left: 40px;
+    margin-right: 5%;
+}
+
+.container1 .numemro{
+    padding-left: 1px;
+    margin-right: 65px;
+}
+
+.container1 #num{
+    width: 5%;
+}
+
+.container1 #let{
+    width: 5%;
+}
+
+.container1 .coPostal{
+    padding-left: 1px;
+    margin-right: 1px;
+}
+
+.container1 #cPostal{
+    width: 5%;
+    margin-left: 2%;
+}
+
+.container1 #tc{
+    margin-left: 40px;
+}
+
+.container1 #re{
+    margin-left: 40px;
+}
+
+.container1 #tb{
+    margin-left: 40px;
+}
+
+.container1 div{
+    margin-top: 2%;
+}
+
+.radio1{
+    margin-left: 40px;
+}
+
+.radio1 label{
+    padding: 0%;
+}
+
+.container1 #tv{
+    margin-left: 40px;
+}
+
+.container1 #rev{
+    margin-left: 40px;
+}
+
+.container1 #we{
+    margin-left: 40px;
+}
+
+.container1 #ot{
+    margin-left: 40px;
+}
+
+.radio label{
+    padding-left: 5px;
+}
+
+form #comp{
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+form #comp:hover{
+    cursor: pointer;
+}
+
+form button:nth-of-type(2){
+    padding: 5px;
+}
+
+form button:nth-of-type(2):hover{
+    cursor: pointer;
+}
+
+div #res{
+    margin-left: 40px;
+    margin-top: 2%;
+}
+
+div #res1{
+    margin-left: 40px;
+    margin-top: 2%;
+}
+
+div #res2{
+    margin-left: 40px;
+    margin-top: 2%;
+}
+
+div #res3{
+    margin-left: 80px;
+    margin-top: 2%;
+}
+
+div #res4{
+    margin-left: 40px;
+    margin-top: 2%;
+}
+
+div #tit{
+    margin-left: 275px;
+}

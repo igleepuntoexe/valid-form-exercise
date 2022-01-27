@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Formulario de compra online</h1>
+        <p>Introduzca los datos requeridos, asi como el pedido que quiere hacer a nuestra tienda. <br> Los campos marcados con "<span>*</span>" son obligatorios</p>
+    <div class="container">
+        <h2>Datos Personales</h2>
+        <div class="nombre1">
+            <label for="nom">Nombre <span>*</span></label>
+            <input type="text" id="nom" required>
+        </div>
+        <div class="nombre2">
+            <label for="primA">Primer Apellido <span>*</span></label>
+            <input type="text" id="primA" required>
+        </div>
+        <div class="nombre3">
+            <label for="segA">Segundo Apellido <span>*</span></label>
+            <input type="text" id="segA" required>
+        </div>
+        <div class="nombre4">
+            <label>Tipo de documento de identidad <span>*</span></label>
+            <select name="document" id="document">
+                <option value="select" disabled selected>Seleccionar</option>
+                <option value="dnis">DNI</option>
+                <option value="nif">NIF</option>
+                <option value="vis">VISADO</option>
+            </select>
+        </div>
+        <div class="nombre5">
+            <label for="compe">Número del documento de identificación sin letra <span>*</span></label>
+            <input type="text" id="compe" required>
+            <button type="button" id="compeB">Comprobar</button> 
+            <label id="nashe"></label>
+        </div>
+        <div class="nombre6">
+            <label for="emal">E-mail <span>*</span></label>
+            <input type="text" id="emal" placeholder="pepito@gmail.com" required>
+        </div>
+        <button type="button" id="res">Borrar Datos</button>
+    </div>
+
+    <div class="container-tocho">
+        <h2>Pedido</h2>
+        <p>En el siguiente cuadro de texto indique que desea hacer a nuestra tienda online.</p>
+        <p>Indicando claramente: CANTIDAD - PRODUCTO - REFERENCIA - COLOR</p>
+        <textarea name="texta" id="texta" cols="70" rows="15" required placeholder="EJEMPLO:                                                                                CANTIDAD:20 - PRODUCTO:Botones - REFERENCIA:048F - COLOR:Rojo"></textarea>
+        <button type="button" id="res1">Borrar Datos</button>
+    </div>
+    <div class="container1">
+        <h2>Datos de Facturación</h2>
+        <h3>Dirección</h3>
+        <div>
+            <label for="canye" class="calle">Calle <span>*</span></label>
+            <input type="text" id="canye" required>
+            <label for="num" class="numemro">Número <span>*</span></label>
+            <input type="text" id="num" required>
+            <label for="let" class="numemro">Letra <span>*</span></label>
+            <input type="text" id="let" required>
+        </div>
+        <div>
+            <label for="ciu">Ciudad <span>*</span></label>
+            <input type="text" id="ciu" required>
+            <label for="cPostal" class="coPostal">Código Postal <span>*</span></label>
+            <input type="text" id="cPostal" required>
+        </div>
+        <h3>Forma de Pago *</h3>
+        <div class="radio">
+            <input type="radio" name="tj" id="tc">
+            <label for="tc">Tarjeta de Credito</label>
+        </div>
+        <div class="radio">
+            <input type="radio" name="rembol" id="re">
+            <label for="re">Reembolso</label>
+        </div>
+        <div class="radio">
+            <input type="radio" name="transb" id="tb">
+            <label for="tb">Transferecias Bancarias</label>
+        </div>
+        <button type="button" id="res2">Borrar Datos</button>
+    </div>
+    <div class="container1">
+        <h2>Datos de la tarjeta de credito</h2>
+        <div class="nombre1">
+            <label for="nt">Número de la tarjeta <span>*</span></label>
+            <input type="text" id="nt" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+            <button type="button" id="ntB">Comprobar</button>
+            <label id="nashe2"></label>
+        </div>
+        <div class="nombre2">
+            <label for="cS">Código de Seguridad <span>*</span></label>
+            <input type="text" id="cS" required>
+            <button type="button" id="csB">Validar</button>
+            <label id="nashe3"></label>
+        </div>
+        <div class="nombre3">
+            <label for="meses">Fecha de Caducidad <span>*</span></label>
+            <select name="mees" id="meses">
+                <option value="mes1" disabled selected>Mes</option>
+                <option value="mes2">Enero</option>
+                <option value="mes3">Febrero</option>
+                <option value="mes4">Marzo</option>
+                <option value="mes5">Abril</option>
+                <option value="mes6">Mayo</option>
+                <option value="mes7">Junio</option>
+                <option value="mes8">Julio</option>
+                <option value="mes9">Agosto</option>
+                <option value="mes10">Septiembre</option>
+                <option value="mes11">Octubre</option>
+                <option value="mes12">Noviembre</option>
+                <option value="mes13">Diciembre</option>
+            </select>
+            <input type="text" id="anho" placeholder="Año" required>
+        </div>
+        <div class="nombre4">
+            <label for="tit">Titular de la Tarjeta <span>*</span></label>
+            <input type="text" id="tit" required>
+        </div>
+        <div class="radio1">
+            <input type="radio" name="radi" id="rad" class="radio1" required>
+            <label for="rad" class="radio11">He leido y acepto las condiciones de privacidad</label>
+        </div>
+        <button type="button" id="res3">Borrar Datos</button>
+    </div>
+    <div class="container1">
+        <h2>¿Como nos ha conocido?</h2>
+        <div>
+            <input type="checkbox" name="web" id="tv" required>
+            <label for="tv">A través de la televisión</label>
+        </div>
+        <div>
+            <input type="checkbox" name="web" id="rev" required>
+            <label for="rev">Por medio de una revista</label>
+        </div>
+        <div>
+            <input type="checkbox" name="web" id="we" required>
+            <label for="we">Por medio de nuestra web</label>
+        </div>
+        <div>
+            <input type="checkbox" name="web" id="ot" required>
+            <label for="ot">Otros</label>
+        </div>
+        <button type="button" id="res4">Borrar Datos</button>
+    </div>
+    <button id="comp">Comprar</button>
+    <button type="reset">Borrar</button>
+</form>
+</body>
+</html>
